@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: robatussum/dev-blog
+  repo: robatussum/hello-world-blog
 
 media_folder: content/assets
 public_folder: ../assets
