@@ -39,7 +39,8 @@ function Bio() {
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter
-              </a>
+              </a> or <a href={`https://instagram.com/${social.instagram}`}>on instagram</a>
+              Better yet my photo gallery is <a href={``}> here :) </a>
             </p>
           </Container>
         )
@@ -48,6 +49,7 @@ function Bio() {
   )
 }
 
+// swap gatsby-icon.png for your own
 const bioQuery = graphql`
   query BioQuery {
     avatar: file(absolutePath: { regex: "/gatsby-icon.png/" }) {
