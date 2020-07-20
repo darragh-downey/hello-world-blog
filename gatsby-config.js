@@ -7,7 +7,7 @@ module.exports = {
     siteUrl: `https://darragh-dev-blog.netlify.com/`,
     social: {
       twitter: `dd0wney`,
-      instagram: `swirls_counterclockwise`
+      instagram: `swirls_counterclockwise`,
     },
   },
   plugins: [
