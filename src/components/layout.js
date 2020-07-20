@@ -12,7 +12,7 @@ class Layout extends React.Component {
     const galleryPath = `${__PATH_PREFIX__}/gallery/`
     let header
 
-    if (location.pathname === rootPath || location.pathname === blogPath) {
+    if (location.pathname === rootPath || location.pathname === blogPath || location.pathname === galleryPath) {
       header = (
         <h1
           style={{

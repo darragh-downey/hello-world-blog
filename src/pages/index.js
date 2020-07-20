@@ -13,7 +13,14 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`, `dev`, `software`]}
+          keywords={[
+            `blog`,
+            `gatsby`,
+            `javascript`,
+            `react`,
+            `dev`,
+            `software`,
+          ]}
         />
         <h1>
           Hey people{" "}
@@ -21,19 +28,19 @@ class IndexPage extends React.Component {
             👋
           </span>
           <span role="img" aria-label="smiley emoji">
-
+            <br/><br/>
+            Currently under construction :)
           </span>
         </h1>
-        <p>You are on my home page.</p>
-        <p>
-          I tinker with software.
-        </p>
-        <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
-        </Link>
-        <Link to="/contact/">
-          <Button marginTop="35px">Contact me</Button>
-        </Link>
+        <p>I tinker with software.</p>
+        <div>
+          <Link to="/blog/">
+            <Button marginTop="35px">Go to Blog</Button>
+          </Link>
+          <Link to="/contact/">
+            <Button marginTop="35px">Contact me</Button>
+          </Link>
+        </div>
       </Layout>
     )
   }
