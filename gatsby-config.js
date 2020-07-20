@@ -7,12 +7,10 @@ module.exports = {
     siteUrl: `https://darraghdowney.com/`,
     social: [
       {
-        name: "twitter",
-        url: `https://twitter.com/dd0wney`,
+        twitter: `dd0wney`,
       },
       {
-        name: "instagram",
-        url: `https://instagram.com/swirls_counterclockwise`,
+        instagram: `swirls_counterclockwise`,
       },
     ],
   },
