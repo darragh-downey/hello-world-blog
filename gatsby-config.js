@@ -1,14 +1,20 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Darragh Downey's Personal Blog`,
+    title: `My Personal Blog`,
     author: `Darragh Downey`,
-    description: `A personal blog built with Gatsby and Netlify CMS.`,
-    siteUrl: `https://darragh-dev-blog.netlify.com/`,
-    social: {
-      twitter: `dd0wney`,
-      instagram: `swirls_counterclockwise`,
-    },
+    description: `A personal website built with Gatsby and Netlify CMS.`,
+    siteUrl: `https://darraghdowney.com/`,
+    social: [
+      {
+        name: "twitter",
+        url: `https://twitter.com/dd0wney`,
+      },
+      {
+        name: "instagram",
+        url: `https://instagram.com/swirls_counterclockwise`,
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
@@ -18,6 +24,8 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-feed-mdx`,
+    `gatsby-plugin-theme-ui`,
+    `gatsby-theme-ui-blog`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

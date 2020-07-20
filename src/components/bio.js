@@ -39,7 +39,8 @@ function Bio() {
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter
-              </a> or <a href={`https://instagram.com/${social.instagram}`}>on instagram</a>
+              </a> or <a href={`https://instagram.com/${social.instagram}`}>on instagram</a>.
+              
               Better yet my photo gallery is <a href={``}> here :) </a>
             </p>
           </Container>
