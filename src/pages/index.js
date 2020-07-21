@@ -30,6 +30,7 @@ class IndexPage extends React.Component {
           <span role="img" aria-label="smiley emoji">
             <br/><br/>
             Currently under construction :)
+            
           </span>
         </h1>
         <div style={{
