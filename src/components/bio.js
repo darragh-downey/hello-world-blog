@@ -37,9 +37,9 @@ function Bio() {
               Written by <strong>{author}</strong>, using <a href={`https://gatsbyjs.org`}>Gatsby</a>, a framework built upon the
               React library.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter
-              </a> or <a href={`https://instagram.com/${social.instagram}`}>on instagram</a>.
+              <a href={`${social[0].url}`}>
+                Follow me on twitter
+              </a> or <a href={`${social[1].url}`}>on instagram</a>.
               
               Better yet my photo gallery is <a href={``}> here :) </a>
             </p>
@@ -64,7 +64,8 @@ const bioQuery = graphql`
       siteMetadata {
         author
         social {
-          twitter
+          url
+          name
         }
       }
     }

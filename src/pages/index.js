@@ -32,14 +32,25 @@ class IndexPage extends React.Component {
             Currently under construction :)
           </span>
         </h1>
-        <p>I tinker with software.</p>
-        <div>
+        <div style={{
+          display: "flex",
+          justifyContent: "center",
+          width: "100%",
+        }}>
+          <div style={{
+            padding: 2,
+          }}>
           <Link to="/blog/">
             <Button marginTop="35px">Go to Blog</Button>
           </Link>
+          </div>
+          <div style={{
+            padding: 2,
+          }}>
           <Link to="/contact/">
             <Button marginTop="35px">Contact me</Button>
           </Link>
+          </div>
         </div>
       </Layout>
     )
