@@ -16,4 +16,5 @@ But at the end of the day, the purpose of this blog site realistically is a plac
 Where I'm not discussing some of the BHMPs (Big Hairy Monster Problems) I'll probably be voicing my opinion on something programming related.
 
 I'll try my best to write something weekly but no promises, *I am kinda busy* :P
+
 DD

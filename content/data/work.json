@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Interim Technology Manager",
+        "slug": "",
+        "description": "Trip Builder was refactored to produce delivered trips as defined in the Project Deed for Sydney Light Rails Payment Mechanism (PayMech, v2 still under development) which determines the abatements owed by all the parties under the contract with Transport for New South Wales TfNSW.\nAuthored the ICT & Software Systems Management Plan Full Operations Phase for Sydney Light Rail.\nProviding guidance on ICT works for CSELR and working with TfNSW to improve their reporting solution for Sydney Light Rail.",
+        "company": "Transdev Sydney",
+        "address": "Sydney, Australia",
+        "startDate": "Aug 2018",
+        "endDate": "Present",
+        "projects": []
+    },
+    {
+        "title": "Systems Technician (IT Business Analyst)",
+        "slug": "",
+        "description": "Leading investigations into poor performance, identifying key areas for improvement and improving business performance through the design and development of custom tools in Python, Angular 6, C++, Docker, and Golang.\nData produced by the Trip Builder project (Trippy) contributed to the following report:\nhttps://www.scribd.com/document/386931640/Capacity-Constraint-Strategies\nReferenced here:\nhttps://www.google.com.au/amp/s/amp.smh.com.au/national/nsw/crush-capacity-the-worst-time-to-get-on-sydney-s-light-rail-20180823-p4zz8q.html",
+        "company": "Transdev Sydney",
+        "address": "Sydney, Australia",
+        "startDate": "Dec 2016",
+        "endDate": "Aug 2018",
+        "projects": []
+    },
+    {
+        "title": "Systems Technician",
+        "slug": "",
+        "description": "Developed full-stack applications in Python, C++, Angular, Go, Bazel, Docker and Kubernetes making good use of Reactive Extensions and multistage Docker builds.",
+        "company": "Transdev Sydney",
+        "address": "Sydney, Australia",
+        "startDate": "Nov 2014",
+        "endDate": "Dec 2016",
+        "projects": []
+    },
+    {
+        "title": "Raft Guide",
+        "slug": "",
+        "description": "My role at Rafting.ie was to ensure that the equipment and changing rooms were in working order before each trip. That the clients were equipped with the appropriate gear and that they had each signed an indemnity form before getting on the bus to the starting point. My primary role was to guide the clients safely down the river in one of Rafting.ie's six rafts.",
+        "company": "Rafting.ie",
+        "address": "Dublin, Ireland",
+        "startDate": "May 2012",
+        "endDate": "Dec 2013",
+        "projects": []
+    },
+    {
+        "title": "Student Intern",
+        "slug": "",
+        "description": "During my brief time with Bitesize Irish Gaelic I was asked to assist in restructuring the lessons the website provides along with some fellow students.\nI was tasked with restructuring the lessons on the server-side into distinct categories and sub-categories using MySQL and PHP.\nhttps://darraghdowney90.wordpress.com/2013/11/06/working-with-bitesize-irish-gaelic/",
+        "company": "Bitesize Irish Gaelic",
+        "address": "Limerick, Ireland",
+        "startDate": "Oct 2013",
+        "endDate": "Nov 2013",
+        "projects": []
+    },
+    {
+        "title": "Job Practice Student - Junior Software Developer",
+        "slug": "",
+        "description": "As part of my work placement in FEXCO I acted as a system administrator for FEXCO Merchant Services knowledge base, which was hosted using Atlassian Confluence. I also wrote an application to convert pdfs to .png format using JMagick, a Java wrapper to ImageMagick's API, for desktop and almost completed the same application as a Confluence add-on.",
+        "company": "FEXCO Merchant Services",
+        "address": "Killorglin, Co. Kerry, Ireland",
+        "startDate": "Jan 2013",
+        "endDate": "Sep 2013",
+        "projects": []
+    },
+    {
+        "title": "Junior Materials Engineer",
+        "slug": "",
+        "description": "During my time with Rough Stuff Kayak Paddles I was charged with paddle assembly, assisting with kayak production and sales.",
+        "company": "Rough Stuff Kayak Paddles",
+        "address": "Dublin, Ireland",
+        "startDate": "Jun 2006",
+        "endDate": "Aug 2010",
+        "projects": []
+    }
+]

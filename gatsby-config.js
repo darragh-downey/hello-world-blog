@@ -16,8 +16,8 @@ module.exports = {
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/in/darraghdowney/`
-      }
+        url: `https://www.linkedin.com/in/darraghdowney/`,
+      },
     ],
   },
   plugins: [
@@ -30,6 +30,15 @@ module.exports = {
     `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-theme-ui`,
     `gatsby-theme-ui-blog`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          'gatsby-remark-mermaid'
+        ]
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -43,6 +52,13 @@ module.exports = {
         path: `${__dirname}/content/assets`,
         name: `assets`,
       },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/data`,
+        name: `data`,
+      }
     },
     {
       resolve: `gatsby-plugin-mdx`,

@@ -23,34 +23,42 @@ class IndexPage extends React.Component {
           ]}
         />
         <h1>
-          Hey people{" "}
-          <span role="img" aria-label="wave emoji">
-            👋
-          </span>
-          <span role="img" aria-label="smiley emoji">
-            <br/><br/>
-            Currently under construction :)
-            
-          </span>
-        </h1>
-        <div style={{
-          display: "flex",
-          justifyContent: "center",
-          width: "100%",
-        }}>
-          <div style={{
-            padding: 2,
-          }}>
-          <Link to="/blog/">
-            <Button marginTop="35px">Go to Blog</Button>
-          </Link>
+          <div>
+            Hey people{" "}
+            <span role="img" aria-label="wave emoji">
+              👋
+            </span>
           </div>
-          <div style={{
-            padding: 2,
-          }}>
-          <Link to="/contact/">
-            <Button marginTop="35px">Contact me</Button>
-          </Link>
+          <div><br/></div>
+          <div>
+            Currently under construction - but I have started writing on my blog! {" "}
+            <span role="img" aria-label="smiley emoji">:)</span>
+          </div>
+        </h1>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            width: "100%",
+          }}
+        >
+          <div
+            style={{
+              padding: 2,
+            }}
+          >
+            <Link to="/blog/">
+              <Button marginTop="35px">Go to Blog</Button>
+            </Link>
+          </div>
+          <div
+            style={{
+              padding: 2,
+            }}
+          >
+            <Link to="/contact/">
+              <Button marginTop="35px">Contact me</Button>
+            </Link>
           </div>
         </div>
       </Layout>

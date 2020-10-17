@@ -34,11 +34,10 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>
-              <a href={`${social[0].url}`}>
+              Written by <strong>{author}</strong> <a href={`${social[0].url}`}>
                 You can follow me on twitter
               </a> or <a href={`${social[1].url}`}>on instagram</a>.
-              If you're interested in working with me on something *professionally* you can reach me <a href={`${social[2].url}`}>on linkedin</a>
+              If you're interested in working with me on something *professionally* you can reach me <a href={`${social[2].url}`}>on linkedin</a><br/>
               
               Working on my photo gallery which will be <a href={``}> here :) </a>
             </p>
