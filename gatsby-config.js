@@ -14,6 +14,10 @@ module.exports = {
         name: `instagram`,
         url: `https://www.instagram.com/swirls_counterclockwise/`,
       },
+      {
+        name: `linkedin`,
+        url: `https://www.linkedin.com/in/darraghdowney/`
+      }
     ],
   },
   plugins: [

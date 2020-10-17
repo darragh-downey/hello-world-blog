@@ -16,7 +16,7 @@ class Header extends React.Component {
               width: "100%",
             }}
           >
-            <h2>
+            <h1>
               <Link
                 to="/about"
                 style={{
@@ -26,11 +26,11 @@ class Header extends React.Component {
                   padding: 2,
                 }}
               >
-                About
+                About |
               </Link>
-            </h2>
-
-            <h2>
+            </h1>
+            
+            <h1>
               <Link
                 to="/work"
                 style={{
@@ -41,11 +41,11 @@ class Header extends React.Component {
                   padding: 2,
                 }}
               >
-                Work
+                Work |
               </Link>
-            </h2>
-
-            <h2>
+            </h1>
+            
+            <h1>
               <Link
                 to="/blog"
                 style={{
@@ -55,11 +55,11 @@ class Header extends React.Component {
                   padding: 2,
                 }}
               >
-                Blog
+                Blog |
               </Link>
-            </h2>
-
-            <h2>
+            </h1>
+            
+            <h1>
               <Link
                 to="/contact"
                 style={{
@@ -71,7 +71,7 @@ class Header extends React.Component {
               >
                 Contact
               </Link>
-            </h2>
+            </h1>
           </div>
       </header>
     )

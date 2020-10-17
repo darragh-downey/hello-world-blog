@@ -34,14 +34,13 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>, using <a href={`https://gatsbyjs.org`}>Gatsby</a>, a framework built upon the
-              React library.
-              {` `}
+              Written by <strong>{author}</strong>
               <a href={`${social[0].url}`}>
-                Follow me on twitter
+                You can follow me on twitter
               </a> or <a href={`${social[1].url}`}>on instagram</a>.
+              If you're interested in working with me on something *professionally* you can reach me <a href={`${social[2].url}`}>on linkedin</a>
               
-              Better yet my photo gallery is <a href={``}> here :) </a>
+              Working on my photo gallery which will be <a href={``}> here :) </a>
             </p>
           </Container>
         )
