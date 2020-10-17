@@ -31,7 +31,7 @@ class Layout extends React.Component {
           © Darragh Downey {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-          All thoughts are my own
+          <p>All thoughts are my own</p>
         </Footer>
       </Wrapper>
     )

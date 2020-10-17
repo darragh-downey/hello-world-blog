@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -17,22 +17,40 @@ class Contact extends React.Component {
         <SEO title="Contact me" />
         <Bio />
         <h1>Leave me a message!</h1>
-        <form method="post" action="#">
-          <label>
-            Name
-            <input type="text" name="name" id="name" />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" id="email" />
-          </label>
-          <label>
-              Message
-              <textarea name="message" id="message" rows="5"/>
-          </label>
-          <button type="submit">Send</button>
-          <input type="reset" value="Clear" />
-        </form>
+        <div>
+          <form
+            method="post"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+            name="contact"
+          >
+            <div>
+              <input type="hidden" name="bot-field" />
+              <input type="hidden" name="form-name" value="contact" />
+            </div>
+            <div>
+              <label>
+                Name
+                <input type="text" name="name" id="name" />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" id="email" />
+              </label>
+            </div>
+            <br />
+            <div>
+              <label>
+                Message
+                <textarea name="message" id="message" rows="5" />
+              </label>
+            </div>
+            <div>
+              <button type="submit">Send</button>
+              <input type="reset" value="Clear" />
+            </div>
+          </form>
+        </div>
         <Link to="/">
           <Button marginTop="35px">Go Home</Button>
         </Link>
@@ -41,4 +59,15 @@ class Contact extends React.Component {
   }
 }
 
+export const data = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
+
 export default Contact
+
