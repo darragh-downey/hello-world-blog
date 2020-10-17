@@ -15,7 +15,6 @@ class Contact extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Contact me" />
-        <Bio />
         <h1>Leave me a message!</h1>
         <div>
           <form
